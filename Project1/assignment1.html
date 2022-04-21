@@ -1,0 +1,18 @@
+<!doctype html><html><head></head><body><html>
+  <body id="body"></body>
+</html><script type="text/javascript">let para = document.body
+function countWords(string) {
+
+  let split = string.toLowerCase().split(" ").join('').split("")
+  let same1 = split.map(i => {
+   return same2 = split.filter( j => j === i)
+  })
+
+  let result = same1.map(i => `${i[0].toUpperCase()} ${i.length}`)
+  let sameSet = new Set(result)
+  para.innerHTML = [...sameSet].join('<br/>')
+  return [...sameSet]
+
+}
+
+console.log(countWords("Chinmay Kulkarni"))</script></body><html>
